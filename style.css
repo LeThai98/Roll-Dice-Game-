@@ -16,7 +16,9 @@ body {
   font-weight: 400;
   height: 100vh;
   color: #333;
+  /* beautiful background  */
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -139,6 +141,7 @@ main {
   top: 46.1rem;
 }
 
+/* animation on the button */
 .btn:active {
   transform: translate(-50%, 3px);
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
